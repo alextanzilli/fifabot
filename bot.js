@@ -30,7 +30,7 @@ function respond() {
   } 
     if(request.text && botRegexTony.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://goldenagecheese.com/blog/wp-content/uploads/2015/05/Turkey-Pepperoni1.jpg");
+    postMessage("Chill your tits.");
     this.res.end();
   } 
   
