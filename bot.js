@@ -15,7 +15,7 @@ function respond() {
                 "MIA","BUF","SF","WAS","NYJ","TB"]
   if(request.text && botRegexliga.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/spreadsheets/d/1FN3gd7e5y-s7Ylb64Cu4K8BFQIOFpqLtkmUMnalUvMg/edit#gid=0");
+    postMessage("No thanks");
     this.res.end();
   } 
   if(request.text && botRegexGolf.test(request.text)) {
